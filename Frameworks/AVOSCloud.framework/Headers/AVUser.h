@@ -124,11 +124,11 @@ A LeanCloud Framework User Object that is a local representation of a user persi
 - (void)signUpInBackgroundWithBlock:(AVBooleanResultBlock)block;
 
 /*!
- update user's password
- @param oldPassword old password
- @param newPassword new password
- @param block The block to execute. The block should have the following argument signature: (id object, NSError *error)
- @warning the user must have logged in, and provide both oldPassword and newPassword, otherwise can't update password successfully.
+ 用旧密码来更新密码。在 3.1.6 之后，更新密码成功之后不再需要强制用户重新登录，仍然保持登录状态。
+ @param oldPassword 旧密码
+ @param newPassword 新密码
+ @param block 完成时的回调，有以下签名 (id object, NSError *error)
+ @warning 此用户必须登录且同时提供了新旧密码，否则不能更新成功。
  */
 - (void)updatePassword:(NSString *)oldPassword newPassword:(NSString *)newPassword block:(AVIdResultBlock)block;
 

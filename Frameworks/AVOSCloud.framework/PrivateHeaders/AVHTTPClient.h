@@ -24,7 +24,12 @@
 
 #import <Availability.h>
 #import <SystemConfiguration/SystemConfiguration.h>
+
+#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
 #import <MobileCoreServices/MobileCoreServices.h>
+#else
+#import <CoreServices/CoreServices.h>
+#endif
 /**
  `AVHTTPClient` captures the common patterns of communicating with an web application over HTTP. It encapsulates information like base URL, authorization credentials, and HTTP headers, and uses them to construct and manage the execution of HTTP request operations.
  

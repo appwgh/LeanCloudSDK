@@ -18,12 +18,12 @@ FOUNDATION_EXPORT const unsigned char AVOSCloudVersionString[];
 extern NSInteger const AVOSCLOUD_API_VERSION;
 
 // Platform
-#define PARSE_IOS_ONLY (TARGET_OS_IPHONE)
-#define PARSE_OSX_ONLY (TARGET_OS_MAC && !(TARGET_OS_IPHONE))
+#define AVOS_IOS_ONLY (TARGET_OS_IPHONE)
+#define AVOS_OSX_ONLY (TARGET_OS_MAC && !(TARGET_OS_IPHONE))
 
 extern NSString *const kPFDeviceType;
 
-#if PARSE_IOS_ONLY
+#if AVOS_IOS_ONLY
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>
@@ -156,8 +156,6 @@ extern NSInteger const kAVErrorUserWithEmailNotFound;
 extern NSInteger const kAVErrorUserCannotBeAlteredWithoutSession;
 /*! @abstract 207: Users can only be created through sign up */
 extern NSInteger const kAVErrorUserCanOnlyBeCreatedThroughSignUp;
-/*! @abstract 208: An existing Facebook account already linked to another user. */
-extern NSInteger const kAVErrorFacebookAccountAlreadyLinked;
 /*! @abstract 208: An existing account already linked to another user. */
 extern NSInteger const kAVErrorAccountAlreadyLinked;
 /*! @abstract 209: User ID mismatch */
@@ -166,12 +164,8 @@ extern NSInteger const kAVErrorUserIdMismatch;
 extern NSInteger const kAVErrorUsernamePasswordMismatch;
 /*! @abstract 211: Could not find user. */
 extern NSInteger const kAVErrorUserNotFound;
-/*! @abstract 250: Facebook id missing from request */
-extern NSInteger const kAVErrorFacebookIdMissing;
 /*! @abstract 250: Linked id missing from request */
 extern NSInteger const kAVErrorLinkedIdMissing;
-/*! @abstract 251: Invalid Facebook session */
-extern NSInteger const kAVErrorFacebookInvalidSession;
 /*! @abstract 251: Invalid linked session */
 extern NSInteger const kAVErrorInvalidLinkedSession;
 

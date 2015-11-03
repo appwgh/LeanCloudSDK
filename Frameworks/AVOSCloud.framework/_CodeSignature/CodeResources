@@ -26,19 +26,19 @@
 		</data>
 		<key>Headers/AVConstants.h</key>
 		<data>
-		00we76O5BSVJIL8RoCwZ6gGcb48=
+		mNV34xuTdYjjYyeiA/PtwmGcQ7g=
 		</data>
 		<key>Headers/AVFile.h</key>
 		<data>
-		dXfD3Y4d1bv+y2gy5utmbKc+yqc=
+		dyrUjUKd1jTMUtwTjVNxS/NxTOs=
 		</data>
 		<key>Headers/AVFileQuery.h</key>
 		<data>
-		sdKmh03LsEiwZF9HyOS/7s823nA=
+		B82C8ui+S894I234XCzfrXFT4dY=
 		</data>
 		<key>Headers/AVGeoPoint.h</key>
 		<data>
-		tyey0vp+lYKNQ2k23e8ns3WQhGU=
+		z4N7GaLzE80ZBJxoybywfrSMs34=
 		</data>
 		<key>Headers/AVGroup.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/AVOSCloud.h</key>
 		<data>
-		n1qNCxZK5X7NShN7d7Uj4q6buwY=
+		cHcJjjn6Dp7DWseMukOpzp34YeM=
 		</data>
 		<key>Headers/AVObject+Subclass.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/AVObject.h</key>
 		<data>
-		eH6U5MjGxz0rL+xp2CkE5zmjn5E=
+		Se5Yj1BqsmIGq9XUC4i1PO0E8xM=
 		</data>
 		<key>Headers/AVPush.h</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Headers/AVUser.h</key>
 		<data>
-		VtVsJagh3wKxyn/wig6xOudh2LU=
+		sZ/BrMRZoDPOWKTw0zWClKzOStg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qusWjtUpmy+UnXahD3/aRJPlmNQ=
+		jjYnFDNOsAypzLvVRt83rlkhmh8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>PrivateHeaders/AVHTTPClient.h</key>
 		<data>
-		h0+YwSCvMacOfMydt1Ccx8CC2WA=
+		mBwzAtfRbJhHJ1EKKqztUTY2m6Y=
 		</data>
 		<key>PrivateHeaders/AVHTTPRequestOperation.h</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>PrivateHeaders/AVLocationManager.h</key>
 		<data>
-		xeYpCu9g+SG7jB7zG1Qt4ipWIPg=
+		9tzrnFl+NvXlnsO/BmppAYqCul0=
 		</data>
 		<key>PrivateHeaders/AVNetworkActivityIndicatorManager.h</key>
 		<data>
@@ -213,19 +213,19 @@
 		</data>
 		<key>Headers/AVConstants.h</key>
 		<data>
-		00we76O5BSVJIL8RoCwZ6gGcb48=
+		mNV34xuTdYjjYyeiA/PtwmGcQ7g=
 		</data>
 		<key>Headers/AVFile.h</key>
 		<data>
-		dXfD3Y4d1bv+y2gy5utmbKc+yqc=
+		dyrUjUKd1jTMUtwTjVNxS/NxTOs=
 		</data>
 		<key>Headers/AVFileQuery.h</key>
 		<data>
-		sdKmh03LsEiwZF9HyOS/7s823nA=
+		B82C8ui+S894I234XCzfrXFT4dY=
 		</data>
 		<key>Headers/AVGeoPoint.h</key>
 		<data>
-		tyey0vp+lYKNQ2k23e8ns3WQhGU=
+		z4N7GaLzE80ZBJxoybywfrSMs34=
 		</data>
 		<key>Headers/AVGroup.h</key>
 		<data>
@@ -253,7 +253,7 @@
 		</data>
 		<key>Headers/AVOSCloud.h</key>
 		<data>
-		n1qNCxZK5X7NShN7d7Uj4q6buwY=
+		cHcJjjn6Dp7DWseMukOpzp34YeM=
 		</data>
 		<key>Headers/AVObject+Subclass.h</key>
 		<data>
@@ -261,7 +261,7 @@
 		</data>
 		<key>Headers/AVObject.h</key>
 		<data>
-		eH6U5MjGxz0rL+xp2CkE5zmjn5E=
+		Se5Yj1BqsmIGq9XUC4i1PO0E8xM=
 		</data>
 		<key>Headers/AVPush.h</key>
 		<data>
@@ -305,7 +305,7 @@
 		</data>
 		<key>Headers/AVUser.h</key>
 		<data>
-		VtVsJagh3wKxyn/wig6xOudh2LU=
+		sZ/BrMRZoDPOWKTw0zWClKzOStg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -329,7 +329,7 @@
 		</data>
 		<key>PrivateHeaders/AVHTTPClient.h</key>
 		<data>
-		h0+YwSCvMacOfMydt1Ccx8CC2WA=
+		mBwzAtfRbJhHJ1EKKqztUTY2m6Y=
 		</data>
 		<key>PrivateHeaders/AVHTTPRequestOperation.h</key>
 		<data>
@@ -349,7 +349,7 @@
 		</data>
 		<key>PrivateHeaders/AVLocationManager.h</key>
 		<data>
-		xeYpCu9g+SG7jB7zG1Qt4ipWIPg=
+		9tzrnFl+NvXlnsO/BmppAYqCul0=
 		</data>
 		<key>PrivateHeaders/AVNetworkActivityIndicatorManager.h</key>
 		<data>

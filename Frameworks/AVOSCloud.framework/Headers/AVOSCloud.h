@@ -26,14 +26,20 @@
 #import "AVRelation.h"
 #import "AVSubclassing.h"
 #import "AVStatus.h"
+#import "AVLogger.h"
+
+#if AVOS_IOS_ONLY
 #import "AVSession.h"
 #import "AVSignature.h"
-#import "AVLogger.h"
 #import "AVHistoryMessageQuery.h"
+#endif
 
-#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
+#if AVOS_IOS_ONLY
 #import "AVAnalytics.h"
 #endif
+
+FOUNDATION_EXPORT NSString *const LCDefaultRESTAPIHost;
+FOUNDATION_EXPORT NSString *const LCFoundationCertificate;
 
 /**
  *  Storage Type

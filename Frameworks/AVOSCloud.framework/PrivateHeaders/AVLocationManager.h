@@ -28,6 +28,8 @@
 
 + (AVLocationManager *)sharedInstance;
 
+#if AVOS_IOS_ONLY
+
 /**
  *  请求“使用应用程序期间”开启定位服务
  *  iOS 8.0 新加，之前版本什么都不做
@@ -48,5 +50,7 @@
  *  @param block 回调结果
  */
 - (void)updateWithBlock:(void(^)(AVGeoPoint *geoPoint, NSError *error))block;
+
+#endif
 
 @end

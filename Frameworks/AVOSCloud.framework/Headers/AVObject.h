@@ -310,7 +310,7 @@
  */
 - (BOOL)isDataAvailable;
 
-#if PARSE_IOS_ONLY
+#if AVOS_IOS_ONLY
 // Deprecated and intentionally not available on the new OS X SDK
 
 /*!
