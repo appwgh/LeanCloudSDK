@@ -13,16 +13,21 @@ s.source           = { :git => "https://github.com/appwgh/LeanCloudSDK.git", :ta
 s.platform     = :ios, '7.0'
 s.requires_arc = true
 
-s.public_header_files = "Frameworks/AVOSCloud.framework/Headers/*.h"
-s.preserve_paths = "Frameworks/AVOSCloud.framework"
-s.ios.vendored_frameworks = "Frameworks/AVOSCloud.framework"
+s.default_subspec = 'Core'
 
-s.frameworks = "CFNetwork", "SystemConfiguration", "MobileCoreServices", "CoreTelephony", "CoreLocation",  "CoreGraphics", "Security", "QuartzCore"
-s.library = "icucore", "sqlite3"
+ s.subspec 'Core' do |cs|
+ 	cs.requires_arc = true
+	cs.public_header_files = "Frameworks/AVOSCloud.framework/Headers/*.h"
+	cs.preserve_paths = "Frameworks/AVOSCloud.framework"
+	cs.ios.vendored_frameworks = "Frameworks/AVOSCloud.framework"
+	cs.frameworks = "CFNetwork", "SystemConfiguration", "MobileCoreServices", "CoreTelephony", "CoreLocation",  "CoreGraphics", "Security", "QuartzCore"
+	cs.library = "icucore", "sqlite3"
+  end
 
-  s.subspec 'LeanCloudIM' do |im|
-      im.public_header_files = 'Frameworks/AVOSCloudIM.framework/Headers/*.h'
-      im.dependency 'LeanCloudSDK'
+  s.subspec 'LeanCloudIM' do |cs|
+  	cs.requires_arc = true
+    cs.public_header_files = 'Frameworks/AVOSCloudIM.framework/Headers/*.h'
+    cs.dependency 'LeanCloudSDK/Core'
   end
 
 end
