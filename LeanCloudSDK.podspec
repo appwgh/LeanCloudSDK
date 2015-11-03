@@ -15,19 +15,19 @@ s.requires_arc = true
 
 s.default_subspec = 'Core'
 
- s.subspec 'Core' do |cs|
- 	cs.requires_arc = true
+s.subspec 'Core' do |cs|
+  cs.requires_arc = true
 	cs.public_header_files = "Frameworks/AVOSCloud.framework/Headers/*.h"
 	cs.preserve_paths = "Frameworks/AVOSCloud.framework"
 	cs.ios.vendored_frameworks = "Frameworks/AVOSCloud.framework"
 	cs.frameworks = "CFNetwork", "SystemConfiguration", "MobileCoreServices", "CoreTelephony", "CoreLocation",  "CoreGraphics", "Security", "QuartzCore"
 	cs.library = "icucore", "sqlite3"
-  end
+end
 
-  s.subspec 'LeanCloudIM' do |cs|
-  	cs.requires_arc = true
-    cs.public_header_files = 'Frameworks/AVOSCloudIM.framework/Headers/*.h'
-    cs.dependency 'LeanCloudSDK/Core'
-  end
+s.subspec 'LeanCloudIM' do |cs|
+  cs.requires_arc = true
+  cs.public_header_files = 'Frameworks/AVOSCloudIM.framework/Headers/*.h' 
+  cs.dependency 'LeanCloudSDK/Core'
+end
 
 end
