@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "LeanCloudSDK"
-s.version          = "3.1.5.2"
+s.version          = "3.1.6.1"
 s.summary          = "LeanCloud iOS SDK for mobile backend."
 s.homepage         = "https://leancloud.cn"
 s.license         = {
@@ -13,12 +13,16 @@ s.source           = { :git => "https://github.com/appwgh/LeanCloudSDK.git", :ta
 s.platform     = :ios, '7.0'
 s.requires_arc = true
 
-#s.source_files = 'libLeanCloudSDK/*.{h,m}'
 s.public_header_files = "Frameworks/AVOSCloud.framework/Headers/*.h"
 s.preserve_paths = "Frameworks/AVOSCloud.framework"
 s.ios.vendored_frameworks = "Frameworks/AVOSCloud.framework"
 
 s.frameworks = "CFNetwork", "SystemConfiguration", "MobileCoreServices", "CoreTelephony", "CoreLocation",  "CoreGraphics", "Security", "QuartzCore"
 s.library = "icucore", "sqlite3"
+
+  s.subspec 'LeanCloudIM' do |im|
+      im.public_header_files = 'Frameworks/AVOSCloudIM.framework/Headers/*.h'
+      im.dependency 'LeanCloudSDK'
+  end
 
 end
