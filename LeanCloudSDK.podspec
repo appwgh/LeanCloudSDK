@@ -29,6 +29,8 @@ s.subspec 'LeanCloudIM' do |cs|
   cs.public_header_files = 'Frameworks/AVOSCloudIM.framework/Headers/*.h' 
   cs.preserve_paths = "Frameworks/AVOSCloudIM.framework"
   cs.ios.vendored_frameworks = "Frameworks/AVOSCloudIM.framework"
+  cs.frameworks = "SystemConfiguration", "MobileCoreServices", "CoreTelephony", "CoreLocation", 
+  cs.library = "icucore"
   cs.dependency 'LeanCloudSDK/Core'
 end
 
