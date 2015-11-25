@@ -9,6 +9,7 @@
 
 // In this header, you should import all the public headers of your framework using statements like #import <AVOSCloudIM/PublicHeader.h>
 
+// Public headers
 #import "AVIMCommon.h"
 #import "AVIMClient.h"
 #import "AVIMConversation.h"

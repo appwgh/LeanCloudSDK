@@ -12,16 +12,9 @@ FOUNDATION_EXPORT double AVOSCloudVersionNumber;
 //! Project version string for AVOSCloud.
 FOUNDATION_EXPORT const unsigned char AVOSCloudVersionString[];
 
-// Version
-#define AVOSCLOUD_VERSION @"1.0.0"
-
-extern NSInteger const AVOSCLOUD_API_VERSION;
-
 // Platform
 #define AVOS_IOS_ONLY (TARGET_OS_IPHONE)
 #define AVOS_OSX_ONLY (TARGET_OS_MAC && !(TARGET_OS_IPHONE))
-
-extern NSString *const kPFDeviceType;
 
 #if AVOS_IOS_ONLY
 #import <UIKit/UIKit.h>
@@ -44,22 +37,22 @@ typedef enum : NSUInteger {
 #endif
 /// Cache policies
 typedef NS_ENUM(int, AVCachePolicy) {
-    ///Ignore Cache
+    /// Query from server and do not save result to the local cache.
     kAVCachePolicyIgnoreCache = 0,
     
-    ///Cache Only
+    /// Only query from the local cache.
     kAVCachePolicyCacheOnly,
     
-    ///Network Only
+    /// Only query from server, and save result to the local cache.
     kAVCachePolicyNetworkOnly,
     
-    ///CacheElseNetwork
+    /// Firstly query from the local cache, if fails, query from server.
     kAVCachePolicyCacheElseNetwork,
     
-    ///NetworkElseCache
+    /// Firstly query from server, if fails, query the local cache.
     kAVCachePolicyNetworkElseCache,
     
-    ///CacheThenNetwork
+    /// Firstly query from the local cache, return result. Then query from server, return result. The callback will be called twice.
     kAVCachePolicyCacheThenNetwork,
 } ;
 

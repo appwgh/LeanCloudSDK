@@ -1,5 +1,10 @@
 # AVOSCloud-iOS-SDK 与leancloud官方同步（包括实时通信SDK）
 
+##3.1.6.5 发布日期：2015-11-24
+
+- 修复 conversation 缓存阻塞主线程的问题
+- 修复 client 状态转移的问题
+
 ## 3.1.6 发布日期：2015-11-02
 
 - 通信模块支持单点登录，调用 -[AVIMClient openWithClientId:tag:callback:]来使用，tag 为 nil 时是默认的多点登录，否则将把tag相同的其它设备踢下线，下线通知将回调于[AVIMClientDelegate client:didOfflineWithError]
