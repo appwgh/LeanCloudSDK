@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "LeanCloudSDK"
-s.version          = "3.1.6.6"
+s.version          = "3.1.6.7"
 s.summary          = "LeanCloud iOS SDK for Cocoapods convenience"
 s.homepage         = "https://leancloud.cn"
 s.license         = {

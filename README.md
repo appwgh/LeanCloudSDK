@@ -1,4 +1,13 @@
-# AVOSCloud-iOS-SDK 与leancloud官方同步（包括实时通信SDK）
+# AVOSCloud-iOS-SDK静态库与leancloud官方同步（包括实时通信SDK）
+
+##3.1.6.7 发布日期：2015-11-26
+
+- 修复 IM-1.x版本 session 连接不稳定的问题
+
+##3.1.6.6 发布日期：2015-11-25
+
+- 允许对云代码进行 RPC 调用
+- 修复 client 对象复用时，open 时状态不正确的问题
 
 ##3.1.6.5 发布日期：2015-11-24
 
