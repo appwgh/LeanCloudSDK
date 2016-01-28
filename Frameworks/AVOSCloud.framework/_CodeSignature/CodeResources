@@ -10,11 +10,15 @@
 		</data>
 		<key>Headers/AVAnalytics.h</key>
 		<data>
-		xzrTkou0Pou2PKd8dPLgmGHgNNA=
+		+HXVvDfl30L4Xw2blFDbbGYbtu4=
 		</data>
 		<key>Headers/AVAnonymousUtils.h</key>
 		<data>
 		/RuSb2XE/NwU1QJkj4IINW5GeTo=
+		</data>
+		<key>Headers/AVAvailability.h</key>
+		<data>
+		RKKZSgNz/twpVgj1hrJtNiotY8U=
 		</data>
 		<key>Headers/AVCloud.h</key>
 		<data>
@@ -26,11 +30,11 @@
 		</data>
 		<key>Headers/AVConstants.h</key>
 		<data>
-		NCg1j740PEhBhnhIKOznsSdChVU=
+		C5pt4ECkliUWj2rWSH6oM6oDx6I=
 		</data>
 		<key>Headers/AVFile.h</key>
 		<data>
-		dyrUjUKd1jTMUtwTjVNxS/NxTOs=
+		xDxv4vxDDNZdxqXMUHAh+ZlKezU=
 		</data>
 		<key>Headers/AVFileQuery.h</key>
 		<data>
@@ -38,11 +42,11 @@
 		</data>
 		<key>Headers/AVGeoPoint.h</key>
 		<data>
-		z4N7GaLzE80ZBJxoybywfrSMs34=
+		RdWKqeYVzSz9IHEYvRWKYesD9Yc=
 		</data>
 		<key>Headers/AVGroup.h</key>
 		<data>
-		WjxV1z/pSNKMptuOrrHRNeRLhl8=
+		LHukstARNGTsEjpGNQPVRTqtyOM=
 		</data>
 		<key>Headers/AVHistoryMessage.h</key>
 		<data>
@@ -66,7 +70,7 @@
 		</data>
 		<key>Headers/AVOSCloud.h</key>
 		<data>
-		jFxp/7p93yVuQR31Lv/0gzYeJDY=
+		NCxdpZ9h9A2Njyi2Az3yvuC8/kY=
 		</data>
 		<key>Headers/AVObject+Subclass.h</key>
 		<data>
@@ -74,11 +78,11 @@
 		</data>
 		<key>Headers/AVObject.h</key>
 		<data>
-		9GRh8N4XxHaEFnCoRVtF/wEv5xI=
+		3dXckj9dLJngJzmS7lrAqCo4io8=
 		</data>
 		<key>Headers/AVPush.h</key>
 		<data>
-		LXD4Dy5XAz0f7a0FmC8DGG9SwOo=
+		V1zo8/1i3Ibyd+gM7SOZaq9eHJ4=
 		</data>
 		<key>Headers/AVQuery.h</key>
 		<data>
@@ -92,6 +96,10 @@
 		<data>
 		LZQun08Ey+PvRNznz52V6bO8FUo=
 		</data>
+		<key>Headers/AVSaveOption.h</key>
+		<data>
+		BFUaQT+PyG3Link5mqZBkD1o7xY=
+		</data>
 		<key>Headers/AVSearchQuery.h</key>
 		<data>
 		arw3hE2H/yTSZoOPtwhyVvE/2sU=
@@ -102,15 +110,15 @@
 		</data>
 		<key>Headers/AVSession.h</key>
 		<data>
-		sNKcwRkyQX8eqOqZvYAaJ3pja28=
+		+/wnOCjyZrsLa295dwTUQho1cfw=
 		</data>
 		<key>Headers/AVSignature.h</key>
 		<data>
-		PEwNUPW9Ru4RpJm/er7/vPWI3Nc=
+		yLE75TsPUWzawMms8lLExB0rS9E=
 		</data>
 		<key>Headers/AVStatus.h</key>
 		<data>
-		74b2Dy5T1czN8+INQOOQ5PbGo2M=
+		3PXEc7jW6ZCko5Qh7EoSW7v/6SY=
 		</data>
 		<key>Headers/AVSubclassing.h</key>
 		<data>
@@ -118,11 +126,11 @@
 		</data>
 		<key>Headers/AVUser.h</key>
 		<data>
-		CRmbRvKqnkuZE4ZB5UCFXvNZvEw=
+		fK0woZAXCfQh8NCRmOPB3R8Lih0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jFukquLFwHr+zAvk3sdm7oH0XU8=
+		jrJBt++pf0tuhcAOvlBMYYbZnrQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -141,11 +149,15 @@
 		</data>
 		<key>Headers/AVAnalytics.h</key>
 		<data>
-		xzrTkou0Pou2PKd8dPLgmGHgNNA=
+		+HXVvDfl30L4Xw2blFDbbGYbtu4=
 		</data>
 		<key>Headers/AVAnonymousUtils.h</key>
 		<data>
 		/RuSb2XE/NwU1QJkj4IINW5GeTo=
+		</data>
+		<key>Headers/AVAvailability.h</key>
+		<data>
+		RKKZSgNz/twpVgj1hrJtNiotY8U=
 		</data>
 		<key>Headers/AVCloud.h</key>
 		<data>
@@ -157,11 +169,11 @@
 		</data>
 		<key>Headers/AVConstants.h</key>
 		<data>
-		NCg1j740PEhBhnhIKOznsSdChVU=
+		C5pt4ECkliUWj2rWSH6oM6oDx6I=
 		</data>
 		<key>Headers/AVFile.h</key>
 		<data>
-		dyrUjUKd1jTMUtwTjVNxS/NxTOs=
+		xDxv4vxDDNZdxqXMUHAh+ZlKezU=
 		</data>
 		<key>Headers/AVFileQuery.h</key>
 		<data>
@@ -169,11 +181,11 @@
 		</data>
 		<key>Headers/AVGeoPoint.h</key>
 		<data>
-		z4N7GaLzE80ZBJxoybywfrSMs34=
+		RdWKqeYVzSz9IHEYvRWKYesD9Yc=
 		</data>
 		<key>Headers/AVGroup.h</key>
 		<data>
-		WjxV1z/pSNKMptuOrrHRNeRLhl8=
+		LHukstARNGTsEjpGNQPVRTqtyOM=
 		</data>
 		<key>Headers/AVHistoryMessage.h</key>
 		<data>
@@ -197,7 +209,7 @@
 		</data>
 		<key>Headers/AVOSCloud.h</key>
 		<data>
-		jFxp/7p93yVuQR31Lv/0gzYeJDY=
+		NCxdpZ9h9A2Njyi2Az3yvuC8/kY=
 		</data>
 		<key>Headers/AVObject+Subclass.h</key>
 		<data>
@@ -205,11 +217,11 @@
 		</data>
 		<key>Headers/AVObject.h</key>
 		<data>
-		9GRh8N4XxHaEFnCoRVtF/wEv5xI=
+		3dXckj9dLJngJzmS7lrAqCo4io8=
 		</data>
 		<key>Headers/AVPush.h</key>
 		<data>
-		LXD4Dy5XAz0f7a0FmC8DGG9SwOo=
+		V1zo8/1i3Ibyd+gM7SOZaq9eHJ4=
 		</data>
 		<key>Headers/AVQuery.h</key>
 		<data>
@@ -223,6 +235,10 @@
 		<data>
 		LZQun08Ey+PvRNznz52V6bO8FUo=
 		</data>
+		<key>Headers/AVSaveOption.h</key>
+		<data>
+		BFUaQT+PyG3Link5mqZBkD1o7xY=
+		</data>
 		<key>Headers/AVSearchQuery.h</key>
 		<data>
 		arw3hE2H/yTSZoOPtwhyVvE/2sU=
@@ -233,15 +249,15 @@
 		</data>
 		<key>Headers/AVSession.h</key>
 		<data>
-		sNKcwRkyQX8eqOqZvYAaJ3pja28=
+		+/wnOCjyZrsLa295dwTUQho1cfw=
 		</data>
 		<key>Headers/AVSignature.h</key>
 		<data>
-		PEwNUPW9Ru4RpJm/er7/vPWI3Nc=
+		yLE75TsPUWzawMms8lLExB0rS9E=
 		</data>
 		<key>Headers/AVStatus.h</key>
 		<data>
-		74b2Dy5T1czN8+INQOOQ5PbGo2M=
+		3PXEc7jW6ZCko5Qh7EoSW7v/6SY=
 		</data>
 		<key>Headers/AVSubclassing.h</key>
 		<data>
@@ -249,7 +265,7 @@
 		</data>
 		<key>Headers/AVUser.h</key>
 		<data>
-		CRmbRvKqnkuZE4ZB5UCFXvNZvEw=
+		fK0woZAXCfQh8NCRmOPB3R8Lih0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

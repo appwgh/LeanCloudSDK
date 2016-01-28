@@ -31,12 +31,26 @@ extern NSString *const kAVIMKeyConversationId;
 /*!
  设置缓存策略，默认是 kAVCachePolicyCacheElseNetwork
  */
-@property (nonatomic) AVCachePolicy cachePolicy;
+@property (nonatomic) AVIMCachePolicy cachePolicy;
 
 /*!
  设置缓存的过期时间，默认是 1 小时（1 * 60 * 60）
  */
 @property (nonatomic) NSTimeInterval cacheMaxAge;
+
+/*!
+ * Build an query that is the OR of the passed in queries.
+ * @param queries The list of queries to OR together.
+ * @return an query that is the OR of the passed in queries.
+ */
++ (instancetype)orQueryWithSubqueries:(NSArray<AVIMConversationQuery *> *)queries;
+
+/*!
+ * Build an query that is the AND of the passed in queries.
+ * @param queries The list of queries to AND together.
+ * @return an query that is the AND of the passed in queries.
+ */
++ (instancetype)andQueryWithSubqueries:(NSArray<AVIMConversationQuery *> *)queries;
 
 /*!
  添加等于条件

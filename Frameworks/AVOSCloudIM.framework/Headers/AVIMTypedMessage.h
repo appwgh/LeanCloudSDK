@@ -29,6 +29,9 @@ enum : AVIMMessageMediaType {
 + (AVIMMessageMediaType)classMediaType;
 @end
 
+@class AVFile;
+@class AVGeoPoint;
+
 /**
  *  Base class for rich media message.
  */

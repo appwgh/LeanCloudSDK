@@ -27,6 +27,11 @@ enum : AVIMMessageSendOption {
 @interface AVIMConversation : NSObject
 
 /**
+ *  The ID of the client which the conversation belongs to.
+ */
+@property (nonatomic, strong, readonly) NSString     *clientId;
+
+/**
  *  The ID of the conversation.
  */
 @property (nonatomic, strong, readonly) NSString     *conversationId;
@@ -188,7 +193,7 @@ enum : AVIMMessageSendOption {
  @return None.
  */
 - (void)sendMessage:(AVIMMessage *)message
-      progressBlock:(AVProgressBlock)progressBlock
+      progressBlock:(AVIMProgressBlock)progressBlock
            callback:(AVIMBooleanResultBlock)callback;
 
 /*!
@@ -212,7 +217,7 @@ enum : AVIMMessageSendOption {
  */
 - (void)sendMessage:(AVIMMessage *)message
             options:(AVIMMessageSendOption)options
-      progressBlock:(AVProgressBlock)progressBlock
+      progressBlock:(AVIMProgressBlock)progressBlock
            callback:(AVIMBooleanResultBlock)callback;
 
 /*!

@@ -1,5 +1,18 @@
 # AVOSCloud-iOS-SDK静态库与leancloud官方同步（包括实时通信SDK）
 
+##3.2.2 发布日期：2016-1-22
+
+- 将 IM 2.0 的底层数据传输协议由 JSON 改为 protobuf，让数据传输更有效率
+- 支持 AVIMConversationQuery 的 AND 和 OR 组合查询
+- 增加 +[AVOSCloudIM handleRemoteNotificationsWithDeviceToken:] 接口，用来处理成功注册到的 device token
+- 将推送通知的注册接口移到 IM 模块
+- 支持缓存 conversation 的 muted 字段
+- 修复 conversation 的更新跟 conversation query 缓存的数据不一致的问题
+- S3 文件上传区分应用，每个应用单独一个 bucket
+- 修复 conversation 完整性检查的 bug，解决重复查询的问题
+- 修复 +[AVOSCloud getServerDate:] 接口中，error 参数被提前释放的问题
+- 修复 SESSION_TOKEN_EXPIRED 错误，解决 Session 过期导致无法登陆的问题。
+
 ##3.1.6.7 发布日期：2015-11-26
 
 - 修复 IM-1.x版本 session 连接不稳定的问题
